@@ -1,0 +1,24 @@
+Lab 1. Hiểu về DNS
+Domain Name System: Hệ thống tên miền hay Hệ thống phân giải (resolve) tên miền.
+DNS dùng để lưu trữ các tên miền (domain name, ví dụ www.google.com), cung cấp dịch vụ chuyển đổi từ địa chỉ dạng chuỗi (tên miền) sang địa chỉ dạng số (IP) và ngược lại (ví dụ www.google.com <> 216.58.221.228).
+
+Lab 2. Đăng ký tên miền miễn phí
+Ba tên miền miễn phí:
+https://wordpress.com/home/onlyyou9251308.wordpress.com
+https://github.com/rukaVN
+
+Lab 3. Đăng ký tên miền có phí
+
+Lab 4. Hiểu về web server
+Web Server là một máy tính, cung cấp các dịch vụ WWW trên Internet. Web Server gồm có: phần cứng, hệ điều hành, phần mềm Web Server, và nội dung của website.
+Web server là gì (phần cứng, hệ điều hành, phần mềm Web Server, và nội dung của website)?
+Phần cứng: Web Server là một máy chủ, có tốc độ xử lý cao, có khả năng lưu trữ nhiều dữ liệu, được bảo mật tốt, luôn luôn ở trạng thái hoạt động.
+
+Hệ điều hành: Vì Web Server có thể là một máy chủ, hoặc là một phần mềm, nên có thể sử dụng rất nhiều hệ điều hành khác nhau, từ các hệ điều hành nhúng trong các thiết bị (máy in, router), cho tới các hệ điều hành thuộc các họ hệ điều hành khác nhau (ví dụ: Windows, Unix, Linux).
+
+Phần mềm: Thị phần năm 2019 của Web Server
+Poduct                  Vendor                      Percent
+Apache                  Apache                      44.3%
+nginx                   NGINX, Inc.                 41.0%
+IIS                     Microsoft                   8.9%
+LiteSpeed Wed Server    LiteSpeed Technologies      0.9%
