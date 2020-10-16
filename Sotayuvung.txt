@@ -1,0 +1,17 @@
+Cross-site scripting: xuyên thủng.
+Data spoofing: dữ liệu lập lại
+/^sju:m/ assume(v): thừa nhận, cho rằng
+harm-less: ít gây hại
+pop-up: bật lên
+validate: xác nhận
+admin-istrators: quản trị viên
+anonymous: vô danh
+client-side data validation: xác thực dữ liệu phía máy khách
+server-side data validation: xác thực dữ liệu phía máy chủ
+unauthorized: không được phép
+privi-leged: đặc quyền
+sanitizing data: làm sạch dữ liệu
+object-oriented programming: lập trình hướng đối tượng (OOP)
+definition: định nghĩa
+
+
