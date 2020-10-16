@@ -1,0 +1,10 @@
+PHP code simple demo
+
+<?php
+	$maDoc =$_GET["ma-doc"];
+?>
+haha haha haha haha!!
+<form method="get" action="trangweb.php">
+<input type="text" name="ma-doc">
+<input type="subit" value="Nguy Hiểm">
+</form>
