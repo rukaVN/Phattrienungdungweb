@@ -13,5 +13,8 @@ privi-leged: đặc quyền
 sanitizing data: làm sạch dữ liệu
 object-oriented programming: lập trình hướng đối tượng (OOP)
 definition: định nghĩa
-
+-----------------------------------
+$_GET: là phương thức client gửi dữ liệu lên server thông qua tham số trên URL, từ đó server sẽ phân tích dữ liệu để thực thi một hành động nào đó.
+Các tham số mà phương thức GET gửi lên sẽ bắt đầu sau dấu ? . Và sẽ nối nhau giữa các khóa thông qua dấu &.
+$_POST: là phương thức gửi dữ liệu lên server không thông qua phương thức tham số, vì thế nên không thể thấy dữ liệu được gửi là gì.
 
