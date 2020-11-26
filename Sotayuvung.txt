@@ -16,6 +16,15 @@ definition: định nghĩa
 -----------------------------------
 $_GET: là phương thức client gửi dữ liệu lên server thông qua tham số trên URL, từ đó server sẽ phân tích dữ liệu để thực thi một hành động nào đó.
 Các tham số mà phương thức GET gửi lên sẽ bắt đầu sau dấu ? . Và sẽ nối nhau giữa các khóa thông qua dấu &.
+
 $_POST: là phương thức gửi dữ liệu lên server không thông qua phương thức tham số, vì thế nên không thể thấy dữ liệu được gửi là gì.
+
 isset: là phương thức dùng để kiểm tra biểu thức đang xử lý đã có trên chương trình hay chưa
+
+switch, case và default: là các từ khóa trong PHP. Các chuỗi câu lệnh có thể là lệnh đơn (1 lệnh) hoặc lệnh ghép (kết hợp nhiều lệnh) và không cần đặt trong cặp dấu ngoặc nhọn {}. Ở mỗi dòng lệnh lựa chọn (case) nó sẽ so sánh xem biến truyền vào $variable có bằng với biến điều kiện $value_1, $value_2 hay không, nếu trùng với case nào thì những câu lệnh bên trong case đó sẽ được thực hiện, đồng thời dòng lệnh break sẽ kết thúc câu lệnh switch. Nếu không có lựa chọn (case) nào đúng thì mặc định nó sẽ chạy vào chuỗi dòng lệnh trong default, lệnh default trong mệnh đề rẻ nhánh switch có thể có hoặc không.
+
+<span></span>: Tag <span> được sử dụng để nhóm các inline trong văn bản HTML.
+Ta có thể dùng span kèm với css để định dạng một phần nội dung trong văn bản HTML
+
+ucfirst(): Hàm ucfirst() sẽ chuyển đổi kí tự đầu tiên trong chuỗi thành in hoa nếu kí tự đó là một chữ cái.
 
