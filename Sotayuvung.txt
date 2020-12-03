@@ -28,3 +28,13 @@ Ta có thể dùng span kèm với css để định dạng một phần nội d
 
 ucfirst(): Hàm ucfirst() sẽ chuyển đổi kí tự đầu tiên trong chuỗi thành in hoa nếu kí tự đó là một chữ cái.
 
+Hàm is_numeric(): sẽ kiểm tra biến có thuộc kiểu số hoặc chuỗi số hay không. chuỗi số bao gồm bất kì chữ số nào, số thập phân, số mũ . v.v. Nếu biến thuộc một trong số những kiểu trên hàm trả về TRUE, ngược lại hàm trả về FALSE.
+
+FILTER_SANITIZE_NUMBER_INT: filter có rất nhiều tính năng mở rộng, giúp lập trình viên tiết kiệm thời gian để có một code clear. FILTER_SANITIZE_NUMBER_INT dùng để kiểm tra rằng đầu vào chắc chắn là một số - không tiêm bất cứ lệnh SQL nào, không có mã HTML hoặc Javascript.
+
+require_once: Lệnh này có chức năng chẳng khác gì lệnh require, tuy nhiên điểm khác biệt đó là lệnh require_once chỉ import đúng một lần, nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
+
+Hàm array_shift() loại bỏ phần tử đầu tiên của mảng, hàm trả về phần tử đầu tiên đã bị loại bỏ.
+
+Explode: là một hàm dựng sẵn trong PHP được sử dụng để tách một chuỗi sang một mảng. Hàm explode tách một chuỗi dựa trên một chuỗi phân cách, tức là nó tách chuỗi ở bất cứ nơi nào ký tự delimeter xảy ra.
+
