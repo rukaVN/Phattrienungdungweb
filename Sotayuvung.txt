@@ -21,20 +21,28 @@ $_POST: là phương thức gửi dữ liệu lên server không thông qua phư
 
 isset: là phương thức dùng để kiểm tra biểu thức đang xử lý đã có trên chương trình hay chưa
 
-switch, case và default: là các từ khóa trong PHP. Các chuỗi câu lệnh có thể là lệnh đơn (1 lệnh) hoặc lệnh ghép (kết hợp nhiều lệnh) và không cần đặt trong cặp dấu ngoặc nhọn {}. Ở mỗi dòng lệnh lựa chọn (case) nó sẽ so sánh xem biến truyền vào $variable có bằng với biến điều kiện $value_1, $value_2 hay không, nếu trùng với case nào thì những câu lệnh bên trong case đó sẽ được thực hiện, đồng thời dòng lệnh break sẽ kết thúc câu lệnh switch. Nếu không có lựa chọn (case) nào đúng thì mặc định nó sẽ chạy vào chuỗi dòng lệnh trong default, lệnh default trong mệnh đề rẻ nhánh switch có thể có hoặc không.
+switch, case và default: là các từ khóa trong PHP. Các chuỗi câu lệnh có thể là lệnh đơn (1 lệnh) hoặc lệnh ghép (kết hợp nhiều lệnh) 
+và không cần đặt trong cặp dấu ngoặc nhọn {}. Ở mỗi dòng lệnh lựa chọn (case) nó sẽ so sánh xem biến truyền vào $variable có bằng với
+biến điều kiện $value_1, $value_2 hay không, nếu trùng với case nào thì những câu lệnh bên trong case đó sẽ được thực hiện, đồng thời
+dòng lệnh break sẽ kết thúc câu lệnh switch. Nếu không có lựa chọn (case) nào đúng thì mặc định nó sẽ chạy vào chuỗi dòng lệnh trong 
+default, lệnh default trong mệnh đề rẻ nhánh switch có thể có hoặc không.
 
 <span></span>: Tag <span> được sử dụng để nhóm các inline trong văn bản HTML.
 Ta có thể dùng span kèm với css để định dạng một phần nội dung trong văn bản HTML
 
 ucfirst(): Hàm ucfirst() sẽ chuyển đổi kí tự đầu tiên trong chuỗi thành in hoa nếu kí tự đó là một chữ cái.
 
-Hàm is_numeric(): sẽ kiểm tra biến có thuộc kiểu số hoặc chuỗi số hay không. chuỗi số bao gồm bất kì chữ số nào, số thập phân, số mũ . v.v. Nếu biến thuộc một trong số những kiểu trên hàm trả về TRUE, ngược lại hàm trả về FALSE.
+Hàm is_numeric(): sẽ kiểm tra biến có thuộc kiểu số hoặc chuỗi số hay không. chuỗi số bao gồm bất kì chữ số nào, số thập phân, số mũ . v.v. 
+Nếu biến thuộc một trong số những kiểu trên hàm trả về TRUE, ngược lại hàm trả về FALSE.
 
-FILTER_SANITIZE_NUMBER_INT: filter có rất nhiều tính năng mở rộng, giúp lập trình viên tiết kiệm thời gian để có một code clear. FILTER_SANITIZE_NUMBER_INT dùng để kiểm tra rằng đầu vào chắc chắn là một số - không tiêm bất cứ lệnh SQL nào, không có mã HTML hoặc Javascript.
+FILTER_SANITIZE_NUMBER_INT: filter có rất nhiều tính năng mở rộng, giúp lập trình viên tiết kiệm thời gian để có một code clear.
+FILTER_SANITIZE_NUMBER_INT dùng để kiểm tra rằng đầu vào chắc chắn là một số - không tiêm bất cứ lệnh SQL nào, không có mã HTML hoặc Javascript.
 
-require_once: Lệnh này có chức năng chẳng khác gì lệnh require, tuy nhiên điểm khác biệt đó là lệnh require_once chỉ import đúng một lần, nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
+require_once: Lệnh này có chức năng chẳng khác gì lệnh require, tuy nhiên điểm khác biệt đó là lệnh require_once chỉ import đúng một lần,
+nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
 
 Hàm array_shift() loại bỏ phần tử đầu tiên của mảng, hàm trả về phần tử đầu tiên đã bị loại bỏ.
 
-Explode: là một hàm dựng sẵn trong PHP được sử dụng để tách một chuỗi sang một mảng. Hàm explode tách một chuỗi dựa trên một chuỗi phân cách, tức là nó tách chuỗi ở bất cứ nơi nào ký tự delimeter xảy ra.
+Explode: là một hàm dựng sẵn trong PHP được sử dụng để tách một chuỗi sang một mảng. Hàm explode tách một chuỗi dựa trên
+một chuỗi phân cách, tức là nó tách chuỗi ở bất cứ nơi nào ký tự delimeter xảy ra.
 
