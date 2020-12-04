@@ -40,7 +40,7 @@
 
 
 <body>
-<?php
+	 <?php
   $number1 = '';
   $calculate = '';
   $number2 = '';
